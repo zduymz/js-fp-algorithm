@@ -1,0 +1,22 @@
+{
+  "name": "js-fp-algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quicksort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zduymz/js-fp-algorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zduymz/js-fp-algorithm/issues"
+  },
+  "homepage": "https://github.com/zduymz/js-fp-algorithm#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
