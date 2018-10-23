@@ -26,4 +26,10 @@ const quicksort = (arr) => {
 
 
 // Test case
-A.deepEqual(quicksort([10, 80, 30, 90, 40, 50, 70]), [ 10, 30, 40, 50, 70, 80, 90 ])
+A.deepEqual(quicksort([]), [])
+A.deepEqual(quicksort([1]), [ 1 ])
+A.deepEqual(quicksort([1,2,3]), [ 1, 2, 3 ])
+A.deepEqual(quicksort([2,3,1,3,1,4,1,5,8,2,1]), [ 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 8 ])
+A.deepEqual(quicksort([2,2]), [ 2, 2 ])
+A.deepEqual(quicksort([3,3,3]), [ 3, 3, 3 ])
+A.deepEqual(quicksort([9,8,7,6,5,4,3,2,1]), [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ])
